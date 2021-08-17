@@ -3,23 +3,23 @@ from random import *
 import turtle
 import time
 
-turtle.pensize(5)
+turtle.pensize(2.5)
  
 def drawUp():
     turtle.seth(90)
-    turtle.fd(20)
+    turtle.fd(5)
 
 def drawDown():
     turtle.seth(270)
-    turtle.fd(20)
+    turtle.fd(5)
 
 def drawLeft():
     turtle.seth(180)
-    turtle.fd(20)
+    turtle.fd(5)
 
 def drawRight():
     turtle.seth(0)
-    turtle.fd(20)
+    turtle.fd(5)
 
 def colourRed():
     turtle.color('red')
